@@ -150,7 +150,7 @@ if __name__ == "__main__":
                 print(F"ENHORABUENA EL JUGADOR {jugador_activo+1} HA GANADO")
                 break
         else:
-            frequency = 2000 # Set Frequency To 2500 Hertz
+            frequency = 2500 # Set Frequency To 2500 Hertz
             duration = 1000  # Set Duration To 1000 ms == 1 second
             print('\a')
             winsound.Beep(frequency, duration)
