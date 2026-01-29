@@ -112,7 +112,7 @@ def test_no_ganador(movimientos_no_ganador):
 def test_ganador(movimientos_ganador):
     assert jugada_ganadora(movimientos_ganador)
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     #Pedimos el tamaño del tablero en que se va a realizar el juego
     n=int(input('Introduce el tamaño del tablero cuadrado:'))
 
